@@ -1,0 +1,6 @@
+<input type="text" placeholder="Key" aria-label="Number" matInput
+       [formControl]="key" name="key"
+       appDelayedInput
+       (delayedInput)="search($event)"
+       [delayTime]="1000"
+>
